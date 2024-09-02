@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QpTLF1+rol11Sd+Qq+rapJJyF2peHkMYZ4Y/3FOYse9sVEqXzW9HLH4QzthiVxq4HMkHtj0q03cR1RR8pn9+Ug==",
+  "success": true,
+  "projectFilePath": "/home/nizito/projects/cs/dlltesst/dlltesst.csproj",
+  "expectedPackageFiles": [
+    "/home/nizito/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

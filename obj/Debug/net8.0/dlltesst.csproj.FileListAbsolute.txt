@@ -1,0 +1,12 @@
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.csproj.AssemblyReference.cache
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.GeneratedMSBuildEditorConfig.editorconfig
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.AssemblyInfoInputs.cache
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.AssemblyInfo.cs
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.csproj.CoreCompileInputs.cache
+/home/nizito/projects/cs/dlltesst/bin/Debug/net8.0/dlltesst.deps.json
+/home/nizito/projects/cs/dlltesst/bin/Debug/net8.0/dlltesst.dll
+/home/nizito/projects/cs/dlltesst/bin/Debug/net8.0/dlltesst.pdb
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.dll
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/refint/dlltesst.dll
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/dlltesst.pdb
+/home/nizito/projects/cs/dlltesst/obj/Debug/net8.0/ref/dlltesst.dll
