@@ -1,0 +1,27 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+stages:
+  - build
+  - deploy
+
+variables:
+  PROJECT_NAME: "MyProject"
+  RELEASE_VERSION: "1.0.0"
+
+build:
+  stage: build
+  script:
+    - dotnet restore
+    - dotnet build -c Release
+    - dotnet pack -c Release
+  artifacts:
+    paths:
+      - $PROJECT_NAME.$RELEASE_VERSION.nupkg
+
+deploy:
+  stage: deploy
+  script:
+    - dotnet nuget push $PROJECT_NAME.$RELEASE_VERSION.nupkg --source https://api.nuget.org/v3/index.json --api-key $NUGET_API_KEY
+  only:
+    - main
+
