@@ -14,7 +14,7 @@ public class Class1 : IDalamudPlugin
 
   public string Name = "dlltesst";
   public Class1(){
-    Service.commandManager.AddHandler("/patcount", new(InChat) { HelpMessage = "This is a test chat!"});
+    Service.commandManager.AddHandler("/dll", new(InChat) { HelpMessage = "This is a test chat!"});
   }
   public void InChat(string command, string args){
     Service.chatGui.Print("Hello from the dlltesst plugin!");
