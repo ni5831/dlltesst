@@ -1,4 +1,8 @@
-image: mcr.microsoft.com/dotnet/core/sdk:8.0
+before_script:
+  - docker run --rm -v $(pwd):/src mcr.microsoft.com/dotnet/sdk:8.0-alpine dotnet tool install -g dotnet-sdk-8.0
+
+services:
+  - dotnet:8.0-sdk
 
 stages:
   - build
